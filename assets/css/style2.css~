@@ -167,14 +167,14 @@ html, body {
   min-width: 320px;
   line-height: 1em;
   font-size: 1.2em;
-  color: white;
-  background: #00acdd;
+  color: black;
+  background: white;
   overflow: hidden;
-  background: -webkit-gradient(radial, 0% 0%, 0, 0% 0%, 100, color-stop(0%, #00acdd), color-stop(100%, #003544));
-  background: -webkit-radial-gradient(top left, #00acdd 0%, #003544 100%);
-  background: -moz-radial-gradient(top left, #00acdd 0%, #003544 100%);
-  background: -o-radial-gradient(top left, #00acdd 0%, #003544 100%);
-  background: radial-gradient(top left, #00acdd 0%, #003544 100%);
+  background: -webkit-gradient(radial, 0% 0%, 0, 0% 0%, 100, color-stop(0%, #ffffff), color-stop(100%, #b3b3b3));
+  background: -webkit-radial-gradient(top left, #ffffff 0%, #b3b3b3 100%);
+  background: -moz-radial-gradient(top left, #ffffff 0%, #b3b3b3 100%);
+  background: -o-radial-gradient(top left, #ffffff 0%, #b3b3b3 100%);
+  background: radial-gradient(top left, #ffffff 0%, #b3b3b3 100%);
 }
 @media only screen and (max-width: 320px) {
   html, body {
@@ -183,11 +183,11 @@ html, body {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:hover, a:active, a:focus {
-  color: #ffcc2f;
+  color: #ed1c24;
 }
 
 .main {
@@ -208,6 +208,7 @@ a:hover, a:active, a:focus {
 }
 .main .inner-content img {
   width: 100%;
+  max-height: 100px;
 }
 .main .inner-content ul {
   margin: 1.4em 0 0;

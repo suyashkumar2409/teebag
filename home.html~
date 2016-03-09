@@ -62,7 +62,7 @@
   <style>
   
 .main .inner-content img {
-  width: 10%;
+  width: 100%;
 }
 	</style>
 </body>
