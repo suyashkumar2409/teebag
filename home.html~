@@ -38,6 +38,7 @@
         </h1>
       </header>
       <p>Site under construction!</p>
+<!--
       <ul>
         <li>
           <a href="#" title="Follow us on facebook">
@@ -50,11 +51,19 @@
           </a>
         </li>
       </ul>
+-->
     </div>
   </section>
   <!-- build:js assets/js/main.min.js -->
   <script src="assets/js/delaunay.js"></script>
   <script src="assets/js/main.js"></script>
   <!-- endbuild -->
+  
+  <style>
+  
+.main .inner-content img {
+  width: 10%;
+}
+	</style>
 </body>
 </html>
