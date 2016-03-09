@@ -38,7 +38,6 @@
         </h1>
       </header>
       <p>Site under construction!</p>
-<!--
       <ul>
         <li>
           <a href="#" title="Follow us on facebook">
@@ -51,7 +50,6 @@
           </a>
         </li>
       </ul>
--->
     </div>
   </section>
   <!-- build:js assets/js/main.min.js -->
